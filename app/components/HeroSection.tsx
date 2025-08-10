@@ -16,11 +16,13 @@ export const HeroSection = () => {
 					{ icon: '🚀', delay: '2s', position: 'top-40 right-1/3' },
 					{ icon: '💻', delay: '1s', position: 'bottom-32 left-1/3' },
 					{ icon: '🔥', delay: '3s', position: 'bottom-20 right-1/4' },
-				].map((item, index) => (
-					<div key={index} className={`absolute ${item.position} animate-float opacity-50`} style={{ animationDelay: item.delay }}>
+					].map((item) => (
+					<div key={item.icon} className={`absolute ${item.position} animate-float opacity-50`} style={{ animationDelay: item.delay }}>
 						<span className="text-4xl">{item.icon}</span>
 					</div>
-				))}
+					))
+
+				}
 			</div>
 
 			{/* Hero Content */}
@@ -58,7 +60,7 @@ export const HeroSection = () => {
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
-                           I'm a passionate Frontend Developer with a strong foundation in modern web technologies and a deep love for building smooth, responsive, and user-centered interfaces.							</p>
+                           I&apos;m  a passionate Frontend Developer with a strong foundation in modern web technologies and a deep love for building smooth, responsive, and user-centered interfaces.							</p>
 						</div>
 
 						{/* Tech Stack Pills */}
