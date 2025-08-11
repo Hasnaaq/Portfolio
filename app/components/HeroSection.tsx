@@ -64,7 +64,7 @@ export const HeroSection = () => {
 						</div>
 						{/* Tech Stack Pills */}
 						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
-							// eslint-disable-next-line @typescript-eslint/no-unused-vars
+							{/* // eslint-disable-next-line @typescript-eslint/no-unused-vars */}
 
 							{['Html', 'Css', 'Java script', 'Next.js', 'React.js' , 'Tailwindcss', 'Bootstrab'].map((tech) => (
 								<span
