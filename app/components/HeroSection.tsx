@@ -62,10 +62,11 @@ export const HeroSection = () => {
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
                            I&apos;m  a passionate Frontend Developer with a strong foundation in modern web technologies and a deep love for building smooth, responsive, and user-centered interfaces.							</p>
 						</div>
-
 						{/* Tech Stack Pills */}
 						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
-							{['Html', 'Css', 'Java script', 'Next.js', 'React.js' , 'Tailwindcss', 'Bootstrab'].map((tech, index) => (
+							// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+							{['Html', 'Css', 'Java script', 'Next.js', 'React.js' , 'Tailwindcss', 'Bootstrab'].map((tech) => (
 								<span
 									key={tech}
 									className="px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1A1F2B] rounded-full text-sm font-medium text-gray-300 border border-[#2D333B] hover:border-blue-500/50 transition-colors"
